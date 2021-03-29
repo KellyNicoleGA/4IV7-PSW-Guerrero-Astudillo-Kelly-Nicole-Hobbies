@@ -1,0 +1,72 @@
+@keyframes animacion_test{
+    from{
+        background-color: 	palevioletred;
+    }
+    to{
+        background-color: rgb(243, 176, 187);
+    }
+}
+.animada{
+    width: 100%;
+    background-color: 	palevioletred;
+    color:white;
+    text-align:center;
+    height: 200px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    animation-name: animacion_test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.catfish,  .hers, .feng{
+    font-family: 'Agency FB';
+    font-size: 20px;
+    height: 80px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.feng2, .catdos, .hers2{
+    font-family: 'Agency FB';
+    font-size: 20px;
+    height: 200px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+
+}
+.title, .album, .cancion, .cat, .alb2, .titlef, .albumf, .cancionf, .fengs, .alb3,  .albumh, .cancionh, .titleh, .alb4,  .her{
+    float: left;
+    width: 30%;
+    display:block;
+    color: white;
+    text-align: center;
+    font-size: 35px; font-family: 'Agency FB';
+    text-decoration: none; 
+    
+}
+.can2, .can3, .can4{
+    padding-top: 3rem;
+    float: left;
+    padding-left:3rem;
+}
+  
+.title:hover, .album:hover, .cancion:hover, .titlef:hover, .titleh:hover, .albumf:hover, .albumh:hover, .cancionf:hover, .cancionh:hover{
+    background-color:mediumvioletred;
+}
+footer{
+    font-family: 'Agency FB', Arial, Helvetica, sans-serif;
+    color: lightgrey;
+    font-size: 30px;
+    font-weight: 445px;
+    text-align:center;
+    margin-right: 4px;
+    height: 5px;
+    padding-top:2rem ;
+  }

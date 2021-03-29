@@ -1,0 +1,79 @@
+
+
+@keyframes animacion_test{
+    from{
+        background-color: 	palevioletred;
+    }
+    to{
+        background-color: rgb(243, 176, 187);
+    }
+}
+.animada{
+    width: 100%;
+    background-color: 	palevioletred;
+    color:white;
+    text-align:center;
+    height: 200px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    animation-name: animacion_test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+nav{
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.texto{
+    font-family: 'Agency FB', Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 445px;
+    text-align:center;
+    margin-right: 4px;
+    
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    width: 1200px;
+  }
+  
+.uno, .dos{
+    float: left;
+    width: 50%;
+
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 35px; font-family: 'Agency FB';
+    padding: 14px 14px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+  
+li a:hover {
+    background-color:mediumvioletred;
+  }
+  footer{
+    font-family: 'Agency FB', Arial, Helvetica, sans-serif;
+    color: lightgrey;
+    font-size: 30px;
+    font-weight: 445px;
+    text-align:center;
+    margin-right: 4px;
+    height: 5px;
+    padding-top:2rem ;
+  }
